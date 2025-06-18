@@ -1,0 +1,51 @@
+// Variables de colores
+
+$color-principal: rgb(77, 155, 168);
+$color-secundario: rgb(89, 178, 194);
+$color-fondo: rgb(212, 210, 210);
+$color-texto: rgb(63, 100, 107);
+$color-fondo-main: rgb(174, 233, 228);
+$color-producto-hover: rgb(35, 61, 65);
+$color-boton: rgb(69, 129, 139);
+$color-boton-hover: rgb(54, 112, 121);
+$color-footer: rgb(7, 81, 94);
+$color-footer-texto: rgb(22, 34, 146);
+$color-footer-fondo: rgb(88, 170, 195); 
+$color-producto-titulo-hover: rgb(120, 120, 120);
+$color-background-form: $color-principal ;
+$color-primary: $color-principal;
+
+
+
+// Variables de estilos 
+
+
+$border-radius: 5px ;
+$border-radius-small: 2px; 
+$font-size-base: 16px; 
+$justify-content: center;
+
+
+
+
+@import "global/reset" ;
+@import "layout/header" ;
+@import "layout/main" ;
+@import "layout/footer" ;
+@import "components/mixins" ;
+@import "layout/form" ;
+@import "layout/productos";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+//Formulario 
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: $color-background-form;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid $color-principal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: $font-size-base;
+    color: $color-texto;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid $color-principal;
+    border-radius: $border-radius-small;
+}
+
+form input[type="submit"] {
+    background-color: $color-principal;
+    color: $color-fondo;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: $color-background-form;
+}
