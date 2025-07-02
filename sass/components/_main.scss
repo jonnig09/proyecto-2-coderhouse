@@ -1,6 +1,6 @@
 /* Estilos del main */
 main {
-  display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -9,5 +9,4 @@ main {
   border-radius: 10px; 
   box-shadow: $box-shadow;
   width: 100%;
-  max-width: 1200px;
 }

@@ -1,6 +1,9 @@
 /* Estilos del encabezado */
 
 header {
+ 
+  display: flex;
+  flex-direction: column;
   background-color: $header-bg ;
   color: $header-bg;
   padding: 20px;
